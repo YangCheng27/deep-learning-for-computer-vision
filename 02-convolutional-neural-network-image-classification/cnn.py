@@ -24,8 +24,8 @@ def get_cifar10_data():
         'It contains 60,000 32x32 color images in 10 different classes.')
     print(introduction)
 
-    set_train = torchvision.datasets.CIFAR10('data', train = True) # 50000 images
-    set_test = torchvision.datasets.CIFAR10('data', train = False) # 10000 images
+    set_train = torchvision.datasets.CIFAR10('data', train = True, download = False) # 50000 images
+    set_test = torchvision.datasets.CIFAR10('data', train = False, download = False) # 10000 images
     class_names = set_train.classes
 
     '''
