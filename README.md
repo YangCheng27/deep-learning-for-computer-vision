@@ -1,3 +1,3 @@
-# modern-cv-algorithms
+# deep-learning-for-computer-vision
 ### 1. Artificial Neural Network (NN) for Image Classification - Keras MNIST Dataset
 ### 2. Convolutional Neural Network (CNN) for Image Classification
