@@ -51,15 +51,14 @@ def data_preprocess_from_keras_mnist(validation_number):
     return data
 
 
-# 2. model architecture and implementation
-class FCNeuralNet:
+# 2. model architecture and implementation: fully-connected neural network
+class FCNN:
     """
     The architecture of this fully-connected neural network is fc - relu - fc - softmax.
     """
 
     # 2-1 Parameter initialization
-    def __init__(self, input_dim=28*28, hidden_dim=100,
-                 num_classes=10, weight_scale=1e-3):
+    def __init__(self, input_dim=28*28, hidden_dim=100, num_classes=10, weight_scale=1e-3):
         """
         Initialize a new network.
         """
